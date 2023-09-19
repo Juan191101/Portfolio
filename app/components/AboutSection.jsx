@@ -59,10 +59,10 @@ const AboutSection = () => {
     }
 
   return (
-    <section className='text-white '>
+    <section id="about" className='text-white mt-20'>
         <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 '>
-        <Image src={"/images/image.png"} width={500} height={500} alt="image"></Image>
-        <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
+        <Image src={"/images/about.jpg"} width={400} height={400} alt="image" className='rounded-3xl'></Image>
+        <div  className='mt-4 md:mt-0 text-left flex flex-col h-full'>
             <h2 className='text-4xl font-bold text-white mb-4'>
                 Sobre mi
             </h2>
@@ -82,7 +82,8 @@ const AboutSection = () => {
              </div>
              <div className='mt-8'>{TAB_DATA.find((t)=> t.id === tab).content}</div>
             </div>
-        </div>
+        <div   id="projects" ></div>
+        </div >
     </section>
   )
 }

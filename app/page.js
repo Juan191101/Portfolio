@@ -10,9 +10,9 @@ export default function Home() {
       <NavBar/>
       <div className='container mt-24 mx-auto px-12 py-4'>
       <HeroSection/>
-      <AboutSection/>
-      <ProjectsSection/>
-      <EmailSection/>
+      <AboutSection id="about" />
+      <ProjectsSection id="projects" />
+      <EmailSection id="contact" />
       </div>
     </main>
   )

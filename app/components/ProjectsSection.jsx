@@ -63,8 +63,8 @@ const ProjectsSection = () => {
     )
 
   return (
-    <>
-        <h2 className='text-center text-4xl font-bold text-white mt-4'>Mis Proyectos</h2>
+    <div>
+        <h2  className='text-center text-4xl font-bold text-white mt-4'>Mis Proyectos</h2>
         <div className='text-white flex flex-row justify-center items-center gap-2 text py-6 '>
             <ProjectTag 
             onClick={handleTagChange} 
@@ -95,7 +95,7 @@ const ProjectsSection = () => {
             />
             ))}
         </div>
-        </>
+        </div>
   )
 }
 

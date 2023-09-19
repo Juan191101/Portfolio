@@ -25,3 +25,13 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* Configuración global para el desplazamiento suave */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ajusta la duración del desplazamiento suave (por ejemplo, 2s para un desplazamiento más lento) */
+html[data-scroll-speed="slow"] {
+  scroll-behavior: smooth;
+}
